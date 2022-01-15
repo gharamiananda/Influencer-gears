@@ -2,6 +2,24 @@
 
 @media(max-width: 790px){
 
+ header .logo__area a{
+    font-size: 16px;
+line-height: 24px;
+
+}
+
+    .banner__content h1{
+        font-size: 28px;
+line-height: 42px;
+
+    }
+
+    .fa-shopping-cart,
+    .fas {
+        font-size: 24px;
+    }
+
+
   
     .product__gallery{
         grid-template-columns: repeat(2 , 1fr);
@@ -19,9 +37,8 @@
     .banner__section{
      
         grid-template-columns: 1fr 1fr;
-        background-color: yellow;
+    
    
-    height:fit-content;
     }
 
     .banner__section h1{
@@ -34,15 +51,43 @@ line-height: 42px;
         gap: 20px;
         background-color: burlywood;
     }
-    .banner__section img{
-       width: 100%;
+    .banner__section .banner__img img{
+        
+        width: 100%;
+        max-width: 300px;
     }
 
 
 
 }
-@media(max-width: 550px){
 
+
+
+
+
+
+
+
+
+
+@media(max-width: 605px){
+
+
+    .banner__content h1{
+        font-size: 28px;
+line-height: 42px;
+text-align: center;
+
+    }
+
+    .banner__content{
+    
+        align-items: center;
+        padding: 20px 0 30px;
+    }
+    .banner__content p{
+        text-align: center;
+    }
     .logo__area{
 
     }
@@ -58,6 +103,8 @@ line-height: 42px;
  nav{
      height: fit-content;
      justify-content: space-between;
+
+   
  }
  .nav__toggler__icon {
     display: block;
@@ -65,13 +112,13 @@ line-height: 42px;
   }
 .navigation{
  position: absolute;
-top: 30px;
+top: 60px;
 left: 0;
 width: 100%;
 flex-direction: column;
 align-items: center;
 background: #fff;
-transform: translateX(-550px);
+transform: translateX(-600px);
 transition: 1s all ease;
    
 }
@@ -83,12 +130,7 @@ ul li a  {
 #navToggler:checked ~ .navigation{
     transform: translateX(0px);
 }
-    .navigation ul{
-/*    
-        display: flex;
-      justify-content: center;
-        flex-direction: column; */
-    }
+  
 
 
     .product__gallery{
@@ -98,9 +140,13 @@ ul li a  {
     .banner__section{
      
         grid-template-columns: 1fr ;
-        background-color: yellow;
+   
    
   height: fit-content;
+    }
+
+    .banner__section .banner__img img{
+        width: 200px;
     }
  
     .banner__section h1{
@@ -109,13 +155,9 @@ line-height: 32px;
     }
     .banner__section img{
 width: 80%;
+padding-top: 20px;
     }
-    .logo__gallery{
-  
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        background-color: burlywood;
-    }
+
   .banner__content{
       order: 2;
   }
@@ -133,4 +175,22 @@ width: 80%;
 .nav__toggler__icon{
     display: block;
 }
+
+
+footer h3{
+    font-size: 16px;
+    line-height: 24px;
 }
+
+
+footer p{
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+}
+
