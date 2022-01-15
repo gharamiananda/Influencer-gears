@@ -377,6 +377,7 @@ span{
 }
 .product__box{
     box-shadow: -5px 2px 19px #C5CACD;
+    position: relative;
 }
 
 
