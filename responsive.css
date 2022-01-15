@@ -1,0 +1,136 @@
+
+
+@media(max-width: 790px){
+
+  
+    .product__gallery{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 20px;
+    }
+
+
+    .banner__section{
+    
+        grid-template-columns: 50% 50%;
+  
+    }
+
+
+    .banner__section{
+     
+        grid-template-columns: 1fr 1fr;
+        background-color: yellow;
+   
+    height:fit-content;
+    }
+
+    .banner__section h1{
+font-size: 40px;
+line-height: 42px;
+    }
+    .logo__gallery{
+  
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        background-color: burlywood;
+    }
+    .banner__section img{
+       width: 100%;
+    }
+
+
+
+}
+@media(max-width: 550px){
+
+    .logo__area{
+
+    }
+    .navigation{
+       
+    }
+    .cart__icon{
+      
+    }
+    .test__flex{
+     
+    }
+ nav{
+     height: fit-content;
+     justify-content: space-between;
+ }
+ .nav__toggler__icon {
+    display: block;
+    order: -6;
+  }
+.navigation{
+ position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+flex-direction: column;
+align-items: center;
+background: #fff;
+transform: translateX(-550px);
+transition: 1s all ease;
+   
+}
+ul li a  {
+ color: red;
+
+}
+
+#navToggler:checked ~ .navigation{
+    transform: translateX(0px);
+}
+    .navigation ul{
+/*    
+        display: flex;
+      justify-content: center;
+        flex-direction: column; */
+    }
+
+
+    .product__gallery{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .banner__section{
+     
+        grid-template-columns: 1fr ;
+        background-color: yellow;
+   
+  height: fit-content;
+    }
+ 
+    .banner__section h1{
+font-size: 30px;
+line-height: 32px;
+    }
+    .banner__section img{
+width: 80%;
+    }
+    .logo__gallery{
+  
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        background-color: burlywood;
+    }
+  .banner__content{
+      order: 2;
+  }
+  
+     
+.wrapper__container{
+   
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+   
+   
+}
+
+.nav__toggler__icon{
+    display: block;
+}
+}
