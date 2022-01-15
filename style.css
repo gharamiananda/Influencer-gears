@@ -48,7 +48,7 @@ a{
     border: 1px solid #7e1f41;
     position: relative;
     display: flex;
-
+overflow: hidden;
 }
 
 .main__btn .fas{
@@ -58,27 +58,46 @@ a{
 .main__btn::before{
     position: absolute;
     content: "";
-    top: 0;
-    left: -100%;
+    top: -30px;
+    
+    width: 20px;
+    height: 100px;
     z-index: 2;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
+   filter: blur(1px);
+   
+    opacity: 0.8;
+    transition: 0.7s;
     background: webkit-linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
     background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
-    transform: skewX(25deg);
+   
+    transform: rotate(-20deg) translate(-60px);
+ 
 }
-.main__btn:hover .main__btn::before{
-    animation:  effect__shine 1s;
+.main__btn::after{
+    position: absolute;
+    content: "";
+    top: -30px;
+    
+    width: 20px;
+    height: 100px;
+    z-index: 2;
+   filter: blur(1px);
+   
+    opacity: 0.8;
+    transition: 0.7s;
+    background: webkit-linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+   
+    transform: rotate(-20deg) translate(-20px);
+ 
 }
-@keyframes effect__shine{
-    100%{
-        left: 150%;
-    }
-}
-img{
-    width: 100%;
 
+.main__btn:hover::before{
+    transform: rotate(-20deg) translate(140px, 70px);
+}
+
+.main__btn:hover::after{
+    transform: rotate(-20deg) translate(140px, 70px);
 }
 
 /* -------------------------
