@@ -368,6 +368,8 @@ margin-top: 16px 0 5px;
 .product__box p{
     font-size: 14px;
 line-height: 143%;
+font-family: 'Inter', sans-serif;
+
 /* or 20px */
 
 color: #787885;
@@ -489,6 +491,7 @@ footer p{
     font-size: 14px;
 line-height: 24px;
 margin-bottom: 17px;
+font-family: 'Manrope', sans-serif;
 }
 
 footer .fab{
@@ -498,4 +501,18 @@ footer .fab{
     padding: 18px;
     background-color: #22213C;
     margin: 0 16px;
+}
+
+footer .fab:hover{
+    font-size: 17px;
+    color: rgb(95, 35, 75);
+  
+    padding: 18px;
+    background-color: #923cc4;
+    cursor: pointer;
+ 
+}
+
+.fas{
+    cursor: pointer;
 }
