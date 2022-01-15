@@ -48,7 +48,7 @@ a{
     border: 1px solid #7e1f41;
     position: relative;
     display: flex;
-overflow: hidden;
+    overflow: hidden;
 }
 
 .main__btn .fas{
@@ -204,9 +204,11 @@ max-height: 500px;
  .banner__img{
     display: flex;
     justify-content: center;
-position: relative;
-
+    position: relative;
+ 
  }
+
+ /* }
  .banner__img::after{
      position: absolute;
      content: "";
@@ -230,7 +232,7 @@ position: relative;
     
      animation: growBig 5s ease infinite;
      z-index: -20;
- }
+ } */
  /* @keyframes grow{
     0%{
     transform: scale(1);
@@ -305,9 +307,13 @@ position: relative;
      display: grid;
      grid-template-columns: repeat(6, 1fr);
      gap: 20px;
-     background: #fff;
+  
    
 
+ }
+
+ .bg-border{
+    background: #fff;
  }
 .logo__photo{
 padding: 20px 0;
@@ -385,6 +391,10 @@ span{
     background-color: #fff;
     border-radius: 20px;
     padding: 17px 15px;
+}
+
+.product__box img{
+    width: 100%;
 }
 .secondary__btn {
     margin: 50px 0;
