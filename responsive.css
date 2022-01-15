@@ -49,7 +49,7 @@ line-height: 42px;
   
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        background-color: burlywood;
+       
     }
     .banner__section .banner__img img{
         
@@ -117,7 +117,8 @@ left: 0;
 width: 100%;
 flex-direction: column;
 align-items: center;
-background: #fff;
+
+
 transform: translateX(-600px);
 transition: 1s all ease;
    
@@ -189,7 +190,14 @@ footer p{
     margin-bottom: 10px;
 }
 
-
+footer .fab{
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 18px;
+    background-color: #22213C;
+    margin: 0 7px;
+}
 
 
 }
