@@ -212,7 +212,7 @@ position: relative;
      animation: growBig 5s ease infinite;
      z-index: -20;
  }
- @keyframes grow{
+ /* @keyframes grow{
     0%{
     transform: scale(1);
       opacity: 1;
@@ -241,7 +241,7 @@ position: relative;
        transform: scale(1.1);
       opacity: 0;
     }
-  }
+  } */
 
 
  .banner__content h1{
@@ -393,6 +393,46 @@ color: rgba(224, 44, 109, 0.87);
 .align__right{
     text-align: right;
 }
+
+
+
+
+
+
+
+.contact__details{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+.contact__form button{
+    margin: 20px 0px 0px;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+form input, textarea{
+    width: 100%;
+    margin: 5px 0;
+    font-family: inherit;
+}
+
+
+
+
+
 
 
 footer{
