@@ -10,9 +10,17 @@ body{
     font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif; */
 font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth ;
 }
 
-
+.moved__top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 5px 10px;
+    z-index: 555;
+}
 
 .wrapper__container{
     max-width: 1200px;
