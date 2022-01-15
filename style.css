@@ -101,6 +101,8 @@ a{
     transform: rotate(-20deg) translate(140px, 70px);
 }
 
+
+
 /* -------------------------
 ---- Header Style css ----
 -------------------------- */
@@ -333,7 +335,9 @@ justify-content: center;
 }
 
 
-
+.product__box:hover {
+    box-shadow: 4px 2px 14px #bd96d7;
+  }
 
 
 .product__section{
